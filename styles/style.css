@@ -1,0 +1,34 @@
+body{
+
+}
+
+.mb-3, .my-3{
+	margin-bottom: 0;
+}
+
+.item{
+	font-size: 14px;
+	border-bottom: 1px solid black;
+}
+
+.main{
+	margin: 20px 0 20px 0;
+}
+
+.itemImg{
+	height: 100px;
+	width: 100px;
+	border: 2px solid rgb(109, 109, 109); 
+	border-radius: 100%; 
+	object-fit: cover;
+}
+
+.item a{
+	text-decoration: none;
+	transition: all .2s ease-in;
+}
+
+.item a:hover{
+	color: #FA7722;
+	transition: all .2s ease-in;
+}
